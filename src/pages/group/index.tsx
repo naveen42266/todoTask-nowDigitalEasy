@@ -57,7 +57,7 @@ const Group = () => {
             if (each.userId === userid) {
                 each.groups.map((each: any) => {
                     if (each.groupId === groupid) {
-                        let newTask = { taskId: `${each?.tasks?.length + 1}`, taskName: task, isComplete: false };
+                        let newTask = { taskId: 'task' + `${each?.tasks?.length + 1}`, taskName: task, isComplete: false };
                         each?.tasks?.push(newTask);
                     }
                 })

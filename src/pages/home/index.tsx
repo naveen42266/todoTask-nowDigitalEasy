@@ -8,7 +8,7 @@ const Home = () => {
     const [open, setOpen] = useState({ isOpen: false, name: '' });
 
     function handleAddUser(name: string) {
-        let newUser = { userName: name, userId: `${todo?.length + 1}`, groups: [] }
+        let newUser = { userName: name, userId: 'user'+`${todo?.length + 1}`, groups: [] }
         todo?.push(newUser);
         setTodo(todo)
         setOpen({ ...open, isOpen: false, name: '' })

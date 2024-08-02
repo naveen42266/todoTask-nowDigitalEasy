@@ -14,7 +14,7 @@ const User = () => {
     function handleAddGroup(name: string) {
         todo.map((each: any) => {
             if (each.userId === userid) {
-                let newGroup = { groupId: `${each?.groups?.length + 1}`, groupName: name, isComplete: false, tasks: [] };
+                let newGroup = { groupId:'group' + `${each?.groups?.length + 1}`, groupName: name, isComplete: false, tasks: [] };
                 each?.groups?.push(newGroup);
             }
         })

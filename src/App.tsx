@@ -8,11 +8,11 @@ import { TodoContext } from './useContext';
 const data =
   [
     {
-      "userId": "1",
+      "userId": "user1",
       "userName": "gopinath",
       "groups": [
         {
-          "groupId": "1",
+          "groupId": "group1",
           "groupName": "work",
           "isComplete": false,
           "tasks": [
@@ -29,17 +29,17 @@ const data =
           ]
         },
         {
-          "groupId": "2",
+          "groupId": "group2",
           "groupName": "personal",
           "isComplete": false,
           "tasks": [
             {
-              "taskId": "task3",
+              "taskId": "task1",
               "taskName": "buy groceries",
               "isComplete": false
             },
             {
-              "taskId": "task4",
+              "taskId": "task2",
               "taskName": "call mom",
               "isComplete": false
             }
@@ -48,11 +48,11 @@ const data =
       ]
     },
     {
-      "userId": "2",
+      "userId": "user2",
       "userName": "kirubhakaran",
       "groups": [
         {
-          "groupId": "1",
+          "groupId": "group1",
           "groupName": "work",
           "isComplete": false,
           "tasks": [
@@ -69,17 +69,17 @@ const data =
           ]
         },
         {
-          "groupId": "2",
+          "groupId": "group2",
           "groupName": "personal",
           "isComplete": false,
           "tasks": [
             {
-              "taskId": "task3",
+              "taskId": "task1",
               "taskName": "buy groceries",
               "isComplete": false
             },
             {
-              "taskId": "task4",
+              "taskId": "task2",
               "taskName": "call mom",
               "isComplete": false
             }
